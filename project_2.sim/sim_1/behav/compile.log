@@ -1,0 +1,26 @@
+awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/local_memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity local_memory
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/processor_memory_path.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Processor_Memory_Path
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/registerFile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_File
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/MainCtrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MainCtrl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Bctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Bctrl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Actrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Actrl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DataPath
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/master.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity master
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/board.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk10Hz
+INFO: [VRFC 10-307] analyzing entity board

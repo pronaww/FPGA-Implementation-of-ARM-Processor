@@ -1,0 +1,16 @@
+0.6
+2016.4
+Jan 23 2017
+19:19:20
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/ALU.vhd,1524828006,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Datapath.vhd,,,alu,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Actrl.vhd,1523003634,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/master.vhd,,,actrl,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Bctrl.vhd,1524826131,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/master.vhd,,,bctrl,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Datapath.vhd,1524890341,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/master.vhd,,,datapath,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/MainCtrl.vhd,1524886726,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/master.vhd,,,mainctrl,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Shifter.vhd,1524662324,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Datapath.vhd,,,shifter,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/board.vhd,1525252071,vhdl,,,,board;clk10hz,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/local_memory.vhd,1524682468,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Datapath.vhd,,,local_memory,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/master.vhd,1524827713,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/board.vhd,,,master,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/multiplier.vhd,1522836598,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Datapath.vhd,,,multiplier,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/processor_memory_path.vhd,1524633878,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Datapath.vhd,,,processor_memory_path,,,,,,,,
+/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/registerFile.vhd,1524896103,vhdl,/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/Datapath.vhd,,,register_file,,,,,,,,

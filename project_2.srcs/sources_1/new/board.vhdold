@@ -1,0 +1,60 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 25.04.2018 09:25:23
+-- Design Name: 
+-- Module Name: board - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity board is
+  Port (
+        clk,reset : in std_logic;
+        memOrReg : in std_logic;
+        read_switches : in std_logic_vector(9 downto 0);
+        leds : out std_logic_vector(15 downto 0);
+        --sevenseg : out std_logic_vector(15 downto 0);
+        firstOrLast : in std_logic );
+end board;
+
+architecture Behavioral of board is
+signal leds_32 : std_logic_vector(31 downto 0);
+signal addr : std_logic_vector(9 downto 0);
+begin
+addr <= read_switches;
+with firstOrLast select
+leds <= leds_32(31 downto 16) when '1',
+        leds_32(15 downto 0) when others;
+        
+
+processor: entity work.master(Behavioral)
+    Port map(reset, clk, memOrReg, addr, leds_32);
+
+
+
+
+end Behavioral;

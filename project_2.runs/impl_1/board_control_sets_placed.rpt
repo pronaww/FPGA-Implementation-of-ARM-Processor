@@ -1,0 +1,153 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed May  2 14:40:28 2018
+| Host         : pranav-HP-Pavilion-Notebook running 64-bit Ubuntu 17.10
+| Command      : report_control_sets -verbose -file board_control_sets_placed.rpt
+| Design       : board
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    86 |
+| Unused register locations in slices containing registers |    38 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             202 |          107 |
+| No           | No                    | Yes                    |               8 |            4 |
+| No           | Yes                   | No                     |             136 |           85 |
+| Yes          | No                    | No                     |              32 |            7 |
+| Yes          | No                    | Yes                    |             512 |          199 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------------------------+----------------------------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|                        Clock Signal                        |                                      Enable Signal                                     |                      Set/Reset Signal                     | Slice Load Count | Bel Load Count |
++------------------------------------------------------------+----------------------------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|  processor/DataPathInstantiate/register_array_reg[15][0]_0 |                                                                                        |                                                           |                1 |              1 |
+|  processor/DataPathInstantiate/Fset                        |                                                                                        | reset_IBUF                                                |                1 |              1 |
+|  processor/DataPathInstantiate/Z                           |                                                                                        | reset_IBUF                                                |                1 |              2 |
+|  processor/DataPathInstantiate/E[0]                        |                                                                                        |                                                           |                2 |              3 |
+|  processor/ACtrlIns/op_code_reg[3]_i_2_n_0                 |                                                                                        |                                                           |                1 |              4 |
+|  processor/DataPathInstantiate/shift_amount_reg[4]_i_2_n_0 |                                                                                        | processor/DataPathInstantiate/shift_amount_reg[4]_i_3_n_0 |                2 |              5 |
+|  clk_slow_BUFG                                             |                                                                                        |                                                           |                3 |              7 |
+|  clk_slow_BUFG                                             |                                                                                        | reset_IBUF                                                |                4 |              8 |
+|  clk_slow_BUFG                                             | processor/MainCtrlIns/register_array_reg[0][23]_2                                      |                                                           |                8 |              8 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_0_15_0_0_i_1_n_0                          |                                                           |                8 |              8 |
+|  clk_slow_BUFG                                             | processor/MainCtrlIns/register_array_reg[0][6]_0                                       |                                                           |               16 |             16 |
+|  clk_IBUF_BUFG                                             |                                                                                        |                                                           |                7 |             27 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_768_895_8_8_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1920_2047_0_0_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1792_1919_8_8_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1792_1919_0_0_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1664_1791_8_8_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_896_1023_0_0_i_1_n_0                      |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_256_383_8_8_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_768_895_0_0_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1920_2047_8_8_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_256_383_0_0_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_896_1023_8_8_i_1_n_0                      |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_384_511_0_0_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_128_255_0_0_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_128_255_8_8_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1408_1535_0_0_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_640_767_8_8_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_640_767_0_0_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_512_639_8_8_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_512_639_0_0_i_1_n_0                       |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_384_511_8_8_i_1_n_0                       |                                                           |                8 |             32 |
+|  BW                                                        |                                                                                        | reset_IBUF                                                |               32 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/pc[31]_i_1_n_0                                           | reset_IBUF                                                |                9 |             32 |
+|  SW                                                        |                                                                                        |                                                           |               32 |             32 |
+|  Mult_true                                                 |                                                                                        |                                                           |               16 |             32 |
+|  MW_mult                                                   |                                                                                        |                                                           |               10 |             32 |
+|  ReW                                                       |                                                                                        | reset_IBUF                                                |               22 |             32 |
+|  MR                                                        |                                                                                        |                                                           |               23 |             32 |
+|  DataPathInstantiate/a_reg02_out                           |                                                                                        | processor/DataPathInstantiate/a_reg_reg[31]_i_3_n_0       |               14 |             32 |
+|  IW                                                        |                                                                                        |                                                           |               12 |             32 |
+|  DW                                                        |                                                                                        | reset_IBUF                                                |               13 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[14][31]_i_1_n_0 | reset_IBUF                                                |               10 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1408_1535_8_8_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_0_127_0_0_i_1_n_0                         |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_0_127_8_8_i_2_n_0                         |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array_reg[15]0        |                                                           |                7 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[0][31]_i_1_n_0  | reset_IBUF                                                |                9 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[10][31]_i_1_n_0 | reset_IBUF                                                |               10 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[11][31]_i_1_n_0 | reset_IBUF                                                |               11 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[12][31]_i_1_n_0 | reset_IBUF                                                |               12 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[13][31]_i_1_n_0 | reset_IBUF                                                |               10 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1280_1407_8_8_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[1][31]_i_1_n_0  | reset_IBUF                                                |                9 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[2][31]_i_1_n_0  | reset_IBUF                                                |               11 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[3][31]_i_1_n_0  | reset_IBUF                                                |               10 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[4][31]_i_1_n_0  | reset_IBUF                                                |               14 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[5][31]_i_1_n_0  | reset_IBUF                                                |               14 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[6][31]_i_1_n_0  | reset_IBUF                                                |               12 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[7][31]_i_1_n_0  | reset_IBUF                                                |                9 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[8][31]_i_1_n_0  | reset_IBUF                                                |               23 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Register_File_Instantiate/register_array[9][31]_i_1_n_0  | reset_IBUF                                                |               26 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1280_1407_0_0_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1536_1663_0_0_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1152_1279_8_8_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1536_1663_8_8_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1664_1791_0_0_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1152_1279_0_0_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1024_1151_8_8_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1024_1151_0_0_i_1_n_0                     |                                                           |                8 |             32 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1920_2047_16_16_i_1_n_0                   |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1408_1535_16_16_i_1_n_0                   |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1536_1663_16_16_i_1_n_0                   |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_128_255_16_16_i_1_n_0                     |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_384_511_16_16_i_1_n_0                     |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1664_1791_16_16_i_1_n_0                   |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_256_383_16_16_i_1_n_0                     |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1024_1151_16_16_i_1_n_0                   |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1280_1407_16_16_i_1_n_0                   |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1792_1919_16_16_i_1_n_0                   |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_1152_1279_16_16_i_1_n_0                   |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_512_639_16_16_i_1_n_0                     |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_0_127_16_16_i_2_n_0                       |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_640_767_16_16_i_1_n_0                     |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_896_1023_16_16_i_1_n_0                    |                                                           |               16 |             64 |
+|  clk_slow_BUFG                                             | processor/DataPathInstantiate/Memory/RAM_reg_768_895_16_16_i_1_n_0                     |                                                           |               16 |             64 |
++------------------------------------------------------------+----------------------------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     2 |
+| 2      |                     1 |
+| 3      |                     1 |
+| 4      |                     1 |
+| 5      |                     1 |
+| 7      |                     1 |
+| 8      |                     3 |
+| 16+    |                    76 |
++--------+-----------------------+
+
+

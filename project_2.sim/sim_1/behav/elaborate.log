@@ -1,0 +1,30 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /home/pranav/Vivado/Vivado/2016.4/bin/unwrapped/lnx64.o/xelab -wto 4854bd6dd3114d94b023722d3688f095 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot board_behav xil_defaultlib.board -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1307] readline called past the end of file ramfile [/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.srcs/sources_1/new/local_memory.vhd:37]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.numeric_std
+Compiling architecture counter of entity xil_defaultlib.clk10Hz [clk10hz_default]
+Compiling architecture behaviouralregister_file of entity xil_defaultlib.Register_File [register_file_default]
+Compiling architecture behaviouralshifter of entity xil_defaultlib.Shifter [shifter_default]
+Compiling architecture behaviouralofalu of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behaviouralmultiplier of entity xil_defaultlib.Multiplier [multiplier_default]
+Compiling architecture behaviouralprocessor_memory_path of entity xil_defaultlib.Processor_Memory_Path [processor_memory_path_default]
+Compiling architecture behavioral of entity xil_defaultlib.local_memory [local_memory_default]
+Compiling architecture behaviouraldatapath of entity xil_defaultlib.DataPath [datapath_default]
+Compiling architecture behavioralmainctrl of entity xil_defaultlib.MainCtrl [mainctrl_default]
+Compiling architecture behavioralbctrl of entity xil_defaultlib.Bctrl [bctrl_default]
+Compiling architecture behavioralactrl of entity xil_defaultlib.Actrl [actrl_default]
+Compiling architecture behavioral of entity xil_defaultlib.master [master_default]
+Compiling architecture behavioral of entity xil_defaultlib.board
+Built simulation snapshot board_behav

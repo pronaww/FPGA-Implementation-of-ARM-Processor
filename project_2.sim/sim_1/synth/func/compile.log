@@ -1,0 +1,11 @@
+awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pranav/Downloads/project_2_LAB5new/project_2_LAB5/project_2.sim/sim_1/synth/func/board_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Actrl
+INFO: [VRFC 10-307] analyzing entity MainCtrl
+INFO: [VRFC 10-307] analyzing entity Multiplier
+INFO: [VRFC 10-307] analyzing entity Register_File
+INFO: [VRFC 10-307] analyzing entity clk10Hz
+INFO: [VRFC 10-307] analyzing entity local_memory
+INFO: [VRFC 10-307] analyzing entity DataPath
+INFO: [VRFC 10-307] analyzing entity master
+INFO: [VRFC 10-307] analyzing entity board

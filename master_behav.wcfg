@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="master_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="master" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="788750000fs"></ZoomStartTime>
+      <ZoomEndTime time="1222250001fs"></ZoomEndTime>
+      <Cursor1Time time="1150000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="124" />
+   <wvobject type="logic" fp_name="/master/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/Asrc1">
+      <obj_property name="ElementShortName">Asrc1</obj_property>
+      <obj_property name="ObjectShortName">Asrc1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/PW">
+      <obj_property name="ElementShortName">PW</obj_property>
+      <obj_property name="ObjectShortName">PW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/IorD">
+      <obj_property name="ElementShortName">IorD</obj_property>
+      <obj_property name="ObjectShortName">IorD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MR">
+      <obj_property name="ElementShortName">MR</obj_property>
+      <obj_property name="ObjectShortName">MR</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MW">
+      <obj_property name="ElementShortName">MW</obj_property>
+      <obj_property name="ObjectShortName">MW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/IW">
+      <obj_property name="ElementShortName">IW</obj_property>
+      <obj_property name="ObjectShortName">IW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DW">
+      <obj_property name="ElementShortName">DW</obj_property>
+      <obj_property name="ObjectShortName">DW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/Rsrc">
+      <obj_property name="ElementShortName">Rsrc</obj_property>
+      <obj_property name="ObjectShortName">Rsrc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/RW">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/XW">
+      <obj_property name="ElementShortName">XW</obj_property>
+      <obj_property name="ObjectShortName">XW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/AW">
+      <obj_property name="ElementShortName">AW</obj_property>
+      <obj_property name="ObjectShortName">AW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/BW">
+      <obj_property name="ElementShortName">BW</obj_property>
+      <obj_property name="ObjectShortName">BW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/Mult_wad">
+      <obj_property name="ElementShortName">Mult_wad</obj_property>
+      <obj_property name="ObjectShortName">Mult_wad</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/immediate_true">
+      <obj_property name="ElementShortName">immediate_true</obj_property>
+      <obj_property name="ObjectShortName">immediate_true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/SW">
+      <obj_property name="ElementShortName">SW</obj_property>
+      <obj_property name="ObjectShortName">SW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MW_mult">
+      <obj_property name="ElementShortName">MW_mult</obj_property>
+      <obj_property name="ObjectShortName">MW_mult</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/SCW">
+      <obj_property name="ElementShortName">SCW</obj_property>
+      <obj_property name="ObjectShortName">SCW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/ACW">
+      <obj_property name="ElementShortName">ACW</obj_property>
+      <obj_property name="ObjectShortName">ACW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/Mult_true">
+      <obj_property name="ElementShortName">Mult_true</obj_property>
+      <obj_property name="ObjectShortName">Mult_true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/Fset">
+      <obj_property name="ElementShortName">Fset</obj_property>
+      <obj_property name="ObjectShortName">Fset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/Fset_mult">
+      <obj_property name="ElementShortName">Fset_mult</obj_property>
+      <obj_property name="ObjectShortName">Fset_mult</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/ReW">
+      <obj_property name="ElementShortName">ReW</obj_property>
+      <obj_property name="ObjectShortName">ReW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/p">
+      <obj_property name="ElementShortName">p</obj_property>
+      <obj_property name="ObjectShortName">p</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/ir_out">
+      <obj_property name="ElementShortName">ir_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/Asrc2">
+      <obj_property name="ElementShortName">Asrc2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Asrc2[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/byte_offset">
+      <obj_property name="ElementShortName">byte_offset[1:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_offset[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/M2R">
+      <obj_property name="ElementShortName">M2R[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M2R[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/res_reg_LAST_TWO">
+      <obj_property name="ElementShortName">res_reg_LAST_TWO[1:0]</obj_property>
+      <obj_property name="ObjectShortName">res_reg_LAST_TWO[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/type_of_dt_ins">
+      <obj_property name="ElementShortName">type_of_dt_ins[2:0]</obj_property>
+      <obj_property name="ObjectShortName">type_of_dt_ins[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/flags">
+      <obj_property name="ElementShortName">flags[3:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/optype">
+      <obj_property name="ElementShortName">optype[3:0]</obj_property>
+      <obj_property name="ObjectShortName">optype[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/state">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/transition_bits">
+      <obj_property name="ElementShortName">transition_bits[8:0]</obj_property>
+      <obj_property name="ObjectShortName">transition_bits[8:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/i_reg">
+      <obj_property name="ElementShortName">i_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/pc">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/wr_enable">
+      <obj_property name="ElementShortName">wr_enable</obj_property>
+      <obj_property name="ObjectShortName">wr_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/data">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/pc">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/wr">
+      <obj_property name="ElementShortName">wr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/register_array">
+      <obj_property name="ElementShortName">register_array[15:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_array[15:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/op1">
+      <obj_property name="ElementShortName">op1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/op2">
+      <obj_property name="ElementShortName">op2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/output_ALU">
+      <obj_property name="ElementShortName">output_ALU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_ALU[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/res">
+      <obj_property name="ElementShortName">res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/flags_reg">
+      <obj_property name="ElementShortName">flags_reg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">flags_reg[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/flags">
+      <obj_property name="ElementShortName">flags[3:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/flags_sig">
+      <obj_property name="ElementShortName">flags_sig[3:0]</obj_property>
+      <obj_property name="ObjectShortName">flags_sig[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/ad_mem">
+      <obj_property name="ElementShortName">ad_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ad_mem[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/rd_mem">
+      <obj_property name="ElementShortName">rd_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/x_reg">
+      <obj_property name="ElementShortName">x_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_reg[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/a_reg">
+      <obj_property name="ElementShortName">a_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a_reg[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/b_reg">
+      <obj_property name="ElementShortName">b_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_reg[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/d_reg">
+      <obj_property name="ElementShortName">d_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/shift_reg">
+      <obj_property name="ElementShortName">shift_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/p">
+      <obj_property name="ElementShortName">p</obj_property>
+      <obj_property name="ObjectShortName">p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/PW">
+      <obj_property name="ElementShortName">PW</obj_property>
+      <obj_property name="ObjectShortName">PW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/IorD">
+      <obj_property name="ElementShortName">IorD</obj_property>
+      <obj_property name="ObjectShortName">IorD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/MR">
+      <obj_property name="ElementShortName">MR</obj_property>
+      <obj_property name="ObjectShortName">MR</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/MW">
+      <obj_property name="ElementShortName">MW</obj_property>
+      <obj_property name="ObjectShortName">MW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/IW">
+      <obj_property name="ElementShortName">IW</obj_property>
+      <obj_property name="ObjectShortName">IW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/DW">
+      <obj_property name="ElementShortName">DW</obj_property>
+      <obj_property name="ObjectShortName">DW</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/M2R">
+      <obj_property name="ElementShortName">M2R[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M2R[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/Rsrc">
+      <obj_property name="ElementShortName">Rsrc</obj_property>
+      <obj_property name="ObjectShortName">Rsrc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/RW">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/Mult_wad">
+      <obj_property name="ElementShortName">Mult_wad</obj_property>
+      <obj_property name="ObjectShortName">Mult_wad</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/Asrc1">
+      <obj_property name="ElementShortName">Asrc1</obj_property>
+      <obj_property name="ObjectShortName">Asrc1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/AW">
+      <obj_property name="ElementShortName">AW</obj_property>
+      <obj_property name="ObjectShortName">AW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/BW">
+      <obj_property name="ElementShortName">BW</obj_property>
+      <obj_property name="ObjectShortName">BW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/XW">
+      <obj_property name="ElementShortName">XW</obj_property>
+      <obj_property name="ObjectShortName">XW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/MW_mult">
+      <obj_property name="ElementShortName">MW_mult</obj_property>
+      <obj_property name="ObjectShortName">MW_mult</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/SCW">
+      <obj_property name="ElementShortName">SCW</obj_property>
+      <obj_property name="ObjectShortName">SCW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/Mult_true">
+      <obj_property name="ElementShortName">Mult_true</obj_property>
+      <obj_property name="ObjectShortName">Mult_true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/immediate_true">
+      <obj_property name="ElementShortName">immediate_true</obj_property>
+      <obj_property name="ObjectShortName">immediate_true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/type_of_dt_ins">
+      <obj_property name="ElementShortName">type_of_dt_ins[2:0]</obj_property>
+      <obj_property name="ObjectShortName">type_of_dt_ins[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/Asrc2">
+      <obj_property name="ElementShortName">Asrc2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Asrc2[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/byte_offset">
+      <obj_property name="ElementShortName">byte_offset[1:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_offset[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/SW">
+      <obj_property name="ElementShortName">SW</obj_property>
+      <obj_property name="ObjectShortName">SW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/Fset_mult">
+      <obj_property name="ElementShortName">Fset_mult</obj_property>
+      <obj_property name="ObjectShortName">Fset_mult</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/Fset">
+      <obj_property name="ElementShortName">Fset</obj_property>
+      <obj_property name="ObjectShortName">Fset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/ReW">
+      <obj_property name="ElementShortName">ReW</obj_property>
+      <obj_property name="ObjectShortName">ReW</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/Flags">
+      <obj_property name="ElementShortName">Flags[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Flags[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/state_out">
+      <obj_property name="ElementShortName">state_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/i_reg">
+      <obj_property name="ElementShortName">i_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/res_reg_LAST_TWO">
+      <obj_property name="ElementShortName">res_reg_LAST_TWO[1:0]</obj_property>
+      <obj_property name="ObjectShortName">res_reg_LAST_TWO[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/state">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/prev_state">
+      <obj_property name="ElementShortName">prev_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">prev_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_1">
+      <obj_property name="ElementShortName">check_1</obj_property>
+      <obj_property name="ObjectShortName">check_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_2">
+      <obj_property name="ElementShortName">check_2</obj_property>
+      <obj_property name="ObjectShortName">check_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_3">
+      <obj_property name="ElementShortName">check_3</obj_property>
+      <obj_property name="ObjectShortName">check_3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_4">
+      <obj_property name="ElementShortName">check_4</obj_property>
+      <obj_property name="ObjectShortName">check_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_5">
+      <obj_property name="ElementShortName">check_5</obj_property>
+      <obj_property name="ObjectShortName">check_5</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_6">
+      <obj_property name="ElementShortName">check_6</obj_property>
+      <obj_property name="ObjectShortName">check_6</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_7">
+      <obj_property name="ElementShortName">check_7</obj_property>
+      <obj_property name="ObjectShortName">check_7</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_8">
+      <obj_property name="ElementShortName">check_8</obj_property>
+      <obj_property name="ObjectShortName">check_8</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_9">
+      <obj_property name="ElementShortName">check_9</obj_property>
+      <obj_property name="ObjectShortName">check_9</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/MainCtrlIns/check_10">
+      <obj_property name="ElementShortName">check_10</obj_property>
+      <obj_property name="ObjectShortName">check_10</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/transition_bits">
+      <obj_property name="ElementShortName">transition_bits[8:0]</obj_property>
+      <obj_property name="ObjectShortName">transition_bits[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/MainCtrlIns/zero">
+      <obj_property name="ElementShortName">zero[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zero[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/wr_enable">
+      <obj_property name="ElementShortName">wr_enable</obj_property>
+      <obj_property name="ObjectShortName">wr_enable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/data">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/pc">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/rd1">
+      <obj_property name="ElementShortName">rd1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/rd2">
+      <obj_property name="ElementShortName">rd2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rd2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/wr">
+      <obj_property name="ElementShortName">wr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/ot1">
+      <obj_property name="ElementShortName">ot1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ot1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/ot2">
+      <obj_property name="ElementShortName">ot2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ot2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/zero">
+      <obj_property name="ElementShortName">zero[31:0]</obj_property>
+      <obj_property name="ObjectShortName">zero[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Register_File_Instantiate/register_array">
+      <obj_property name="ElementShortName">register_array[15:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register_array[15:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Processor_Memory_Path_Inst/out_proc">
+      <obj_property name="ElementShortName">out_proc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_proc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Memory/addra">
+      <obj_property name="ElementShortName">addra[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DataPathInstantiate/Memory/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Memory/dina">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Memory/douta">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DataPathInstantiate/Memory/ena">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/master/DataPathInstantiate/Memory/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/master/DataPathInstantiate/Memory/wea">
+      <obj_property name="ElementShortName">wea[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[3:0]</obj_property>
+   </wvobject>
+</wave_config>
